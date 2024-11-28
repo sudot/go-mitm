@@ -2,3 +2,4 @@
 .idea
 releases
 static/dist/
+*.exe

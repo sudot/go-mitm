@@ -8,6 +8,9 @@ import {prismjsPlugin} from "vite-plugin-prismjs"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    build: {
+        outDir: '../../static/dist'
+    },
     plugins: [
         vue(),
         Components({
